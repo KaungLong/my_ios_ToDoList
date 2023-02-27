@@ -110,5 +110,22 @@ class ViewController: UIViewController,UITableViewDataSource {
          default:
              break
          }
+
+    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+
+            let imageView = UIImageView()
+            imageView.image = UIImage(systemName: "network")
+            let headerView = UIView()
+            headerView.backgroundColor = .white
+            headerView.addSubview(imageView)
+
+            imageView.translatesAutoresizingMaskIntoConstraints = false
+            imageView.centerXAnchor.constraint(equalTo: headerView.centerXAnchor).isActive = true
+            imageView.centerYAnchor.constraint(equalTo: headerView.centerYAnchor).isActive = true
+            imageView.heightAnchor.constraint(equalToConstant: 60).isActive = true
+            imageView.widthAnchor.constraint(equalToConstant: 60).isActive = true
+
+            return headerView
+        }
     }
 }

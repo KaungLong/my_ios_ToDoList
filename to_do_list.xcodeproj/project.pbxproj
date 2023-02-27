@@ -12,6 +12,7 @@
 		418FC44328F57C4F0044C51B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 418FC44228F57C4F0044C51B /* ViewController.swift */; };
 		418FC44828F57C520044C51B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 418FC44728F57C520044C51B /* Assets.xcassets */; };
 		418FC44B28F57C520044C51B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 418FC44928F57C520044C51B /* LaunchScreen.storyboard */; };
+		419A9ADC29ACDCC800D8A5DC /* my_ios_ToDoList_demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 419A9ADB29ACDCC800D8A5DC /* my_ios_ToDoList_demo.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		418FC44728F57C520044C51B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		418FC44A28F57C520044C51B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		418FC44C28F57C520044C51B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		419A9ADB29ACDCC800D8A5DC /* my_ios_ToDoList_demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = my_ios_ToDoList_demo.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		418FC43228F57C4F0044C51B = {
 			isa = PBXGroup;
 			children = (
+				419A9ADA29ACDCB400D8A5DC /* demo */,
 				418FC43D28F57C4F0044C51B /* to_do_list */,
 				418FC43C28F57C4F0044C51B /* Products */,
 			);
@@ -62,6 +65,14 @@
 				418FC44C28F57C520044C51B /* Info.plist */,
 			);
 			path = to_do_list;
+			sourceTree = "<group>";
+		};
+		419A9ADA29ACDCB400D8A5DC /* demo */ = {
+			isa = PBXGroup;
+			children = (
+				419A9ADB29ACDCC800D8A5DC /* my_ios_ToDoList_demo.gif */,
+			);
+			path = demo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +135,7 @@
 			files = (
 				418FC44B28F57C520044C51B /* LaunchScreen.storyboard in Resources */,
 				418FC44828F57C520044C51B /* Assets.xcassets in Resources */,
+				419A9ADC29ACDCC800D8A5DC /* my_ios_ToDoList_demo.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
